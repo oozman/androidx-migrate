@@ -44,7 +44,9 @@ The parameter definitions:
 ## More Info
 For more info about how to migrate your existing Android app to use the new AndroidX libraries, see [Migrate to AndroidX](https://developer.android.com/topic/libraries/support-library/refactor)
 
-## Ooh, Just to be Clear
+## License
+My Mom told be not to miss this before pushing it to the universe.
+
 ```text
 MIT License
 
