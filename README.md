@@ -1,6 +1,8 @@
 # androidx-migrate
 A simple PHP script which replaces files with the new AndroidX artifacts and class mappings.
 
+![image](http://limping-planes.surge.sh/pic.gif)
+
 ## Installation
 Run composer install first:
 ```
