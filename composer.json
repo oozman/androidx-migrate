@@ -1,5 +1,8 @@
 {
-  "name": "oozman/batch-file-replace",
+  "name": "oozman/androidx-migrate",
+  "description": "A simple PHP script which replaces files with the new AndroidX artifacts and class mappings.",
+  "version": "1.0.0",
+  "license": "MIT License",
   "require": {
     "league/flysystem": "^1.0",
     "react/react": "^0.4.2",
@@ -7,8 +10,8 @@
   },
   "authors": [
     {
-      "name": "Omar Usman",
-      "email": "oomarusman@gmail.com"
+      "name": "OOZMAN",
+      "email": "hi@oozman.com"
     }
   ]
 }
