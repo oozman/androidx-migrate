@@ -6,10 +6,15 @@ require_once 'vendor/autoload.php';
 $args       = new \Cliphp\Args();
 $chunkCount = $args->get('chunks') ? $args->get('chunks') : 1;
 $processor  = $args->get('processor') ? $args->get('processor') : 1;
+$rootPath   = $args->get('root') ? $args->get('root') : null;
+
+if ( ! $rootPath) {
+    echo 'Please provide an absolute path to your root folder first. Eg: --root="/Users/.../app"'."\n";
+    exit;
+}
 
 // AndroidX class mappings.
 $mappings   = json_decode(file_get_contents('mappings.json'), true);
-$rootPath   = '/Users/namzoo/Documents/codes/mesasix/mckd/app';
 $local      = new \League\Flysystem\Adapter\Local($rootPath);
 $filesystem = new \League\Flysystem\Filesystem($local);
 
