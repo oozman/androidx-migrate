@@ -1,0 +1,14 @@
+{
+  "name": "oozman/batch-file-replace",
+  "require": {
+    "league/flysystem": "^1.0",
+    "react/react": "^0.4.2",
+    "cliphp/args": "^1.0.4"
+  },
+  "authors": [
+    {
+      "name": "Omar Usman",
+      "email": "oomarusman@gmail.com"
+    }
+  ]
+}
